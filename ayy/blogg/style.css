@@ -1,0 +1,172 @@
+
+.content{
+    display: none; 
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #cbcbcb;
+
+}
+form{
+    width: 50%;
+    margin: 20px auto;
+}
+form div{
+    margin-top: 5px;
+}
+#img_div{
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    border: 1px solid #cbcbcb;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#img_div:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.iam{
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+input{
+    width: 80%;
+    padding: 8px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    background-color: rgba(194, 130, 214, 0.308);
+    margin-top: 8px;
+}
+h1:hover{
+    background-color: darkred;
+color: azure;}
+p{
+    font-size: 25px;
+}
+button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 8px;
+    margin: auto;
+    padding: auto;
+}
+.drop{
+    background-color: rgba(0, 0, 0, 0.30);
+    display:none;
+    margin: 5px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+.hove{
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+#ad{
+    cursor: pointer;
+}
+/*.drop:hover .hove{
+    display: flex;
+}
+*/
+.more{
+    display: flex;
+    padding: 12px;
+    height: 200px;
+   width: 100%;
+   margin: 8px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    cursor: pointer;
+    border: 1px solid #cbcbcb;
+}
+.more :active{
+    background-color: rgb(109, 109, 194);
+}
+.double{
+
+    margin-top: 13%;
+    width: 40%;
+    border: 2px solid #cbcbcb;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;
+    height: 600px;
+    overflow-y: scroll;
+}
+.hed{
+    padding: 12px;
+    float: left;
+    margin-top: 8%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 1px 1px #cbcbcb;
+}
+.bgbg{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    width: 100%;
+}
+.comm{
+    display: block;
+    margin: auto;
+    padding: 0%;
+    margin-top: 4%;
+    width: 100%;
+    height: 220px;
+    border: 1px solid #cbcbcb;
+    text-align: center;
+    place-items: center;
+}
+#comment{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #cbcbcb;
+}
+#commentname{
+    margin: auto;
+    width: 100%;
+    border: 1px solid #cbcbcb;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.tabsirah{
+    margin: 2px;
+    width: 100%;
+    background-color: rgba(192, 160, 165, 0.36) ;
+    float: left;
+    border: 1px solid black;
+}
+.compensate{
+    width: 50%;
+    margin: auto;
+}
+@media only screen and (max-width: 1000px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bgbg{
+        height: 100vh;
+        width: 100%;
+    }
+    
+}
+#preloader{
+    background: #000 url(image/Loading.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
